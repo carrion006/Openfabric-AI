@@ -1,0 +1,76 @@
+Openfabric AI TestCases:
+
+This is a high-level overview of potential test cases. Specific test cases will depend on the specific module or feature being tested.
+
+1. Functional Testing
+
+1.1. Consensus Protocol
+
+Positive scenarios:
+Verify that nodes can join and leave the network without disrupting consensus.
+Verify that the dynamic consensus mechanism reaches consensus on different types of decisions with varying importance levels.
+Verify that the system recovers from Byzantine faults.
+Negative scenarios:
+Simulate node failure and verify that the system can continue to operate.
+Inject malicious nodes into the network and verify that they are identified and isolated.
+Verify that the system is resistant to denial-of-service attacks.
+1.2. AI-Apps
+
+Positive scenarios:
+Verify that users can deploy and run AI-Apps on the network.
+Verify that AI-Apps can interact with each other and exchange data.
+Verify that AI-Apps can access and process data stored on the network.
+Negative scenarios:
+Verify that malicious AI-Apps are identified and prevented from running.
+Verify that the system can handle invalid or faulty AI-Apps.
+Verify that the system can recover from AI-Apps that crash or become unresponsive.
+1.3. Openfabric AI Xplorer
+
+Positive scenarios:
+Verify that users can browse and search for AI-Apps.
+Verify that users can deploy and run AI-Apps through the Xplorer.
+Verify that users can rate and review AI-Apps.
+Negative scenarios:
+Verify that the Xplorer can handle invalid or missing data.
+Verify that the Xplorer can recover from network errors.
+Verify that the Xplorer is resistant to common web vulnerabilities.
+1.4. Openfabric Community AI Apps
+
+Positive scenarios:
+Verify that users can use the apps to generate text, images, music, and QR codes.
+Verify that the apps are easy to use and understand.
+Verify that the apps are accessible to users with different levels of technical expertise.
+Negative scenarios:
+Verify that the apps can handle invalid or missing input.
+Verify that the apps are resistant to malicious input.
+Verify that the apps do not generate offensive or harmful content.
+2. Performance Testing
+
+Measure the throughput and latency of the network under different loads.
+Measure the response time of the AI-Apps.
+Measure the resource utilization of the network nodes.
+3. Security Testing
+
+Identify potential vulnerabilities in the smart contracts.
+Test the system for common vulnerabilities such as SQL injection and cross-site scripting.
+Perform a penetration test to identify any exploitable weaknesses.
+4. Usability Testing
+
+Test the usability of the Openfabric AI Xplorer and the Openfabric Community AI Apps.
+Gather feedback from users on the ease of use and understandability of the interfaces.
+Make adjustments to the interfaces based on user feedback.
+5. Decentralization Testing
+
+Verify that the network is resistant to censorship and single points of failure.
+Measure the degree of decentralization of the network.
+Explore ways to further decentralize the network.
+6. Data Privacy Testing
+
+Verify that user data is stored securely and only accessed with appropriate permissions.
+Test the system for compliance with data privacy regulations.
+Develop mechanisms for users to control their data.
+7. Regulation Testing
+
+Verify that the Openfabric AI platform complies with relevant regulations.
+Explore potential regulatory challenges and develop solutions to address them.
+Stay up-to-date on changes in regulations and adapt the platform accordingly.
